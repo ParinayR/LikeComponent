@@ -12,4 +12,9 @@ export class LikeComponent {
         this.numberOfLikes++; 
     }
 
+
+    dislikeButtonClick() {
+        this.numberOfLikes--;
+    }
+
 }
